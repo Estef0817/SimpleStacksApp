@@ -14,6 +14,14 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            Text("Estefany is awesome!")
+            HStack  {
+                Image(systemName: "person.circle")
+                    .imageScale(.large)
+                    .foregroundStyle(Color.yellow)
+                Text("Estefany")
+                    .foregroundStyle(Color.purple)
+            }
         }
         .padding()
     }
